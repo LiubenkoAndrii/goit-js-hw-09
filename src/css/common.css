@@ -16,3 +16,57 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[data-start] {
+  display: block;
+  margin: 10px auto;
+  padding: 5 20;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[data-stop] {
+  display: block;
+  margin: 20px auto;
+  padding: 5 20;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.timer .field .value {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.timer .field .label {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
